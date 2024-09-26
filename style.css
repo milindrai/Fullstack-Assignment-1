@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: flex;
+    color: white;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.left {
+    display: flex;
+    color: white;
+    background-color: #000000;
+    background-color: #000000;
+}
+
+.nav .nav-itm {
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+}
+
+.nav .nav-itm:hover {
+    color: #000000;
+    background-color: white;
+}
+
+.logo {
+    background-color: #118675 !important;
+    color: wheat
+}
+
+.logo:hover {
+    background-color: grey !important;
+}
+
+
+
+.search {
+    padding: 20px;
+}
+
+.search:hover {
+    background-color: #118675 !important;
+}
+
+.learn-w3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.top-cont {
+    position: relative;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #262626;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.work-card {
+    background-color: white;
+    color: #000000;
+}
